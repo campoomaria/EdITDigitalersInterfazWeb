@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    color: #333;
+    font:400 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+}
+
+h1 { font-size: 40px;}
+h1, strong {font-weight: 700;}
+
+
+ nav ,footer strong {font-family: 'Coiny', cursive;
+font-size: 24px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+text-decoration: underline;
+}   
+
+h2 {font-weight: 400; font-size: 26.66px;}
+
+h3 { font-weight: 900;}
+
+.subtitulo, footer{
+    background-color: yellow;
+}
+
+.imagen1{
+    width: 350px;
+    height: auto;
+}
+
+.imagen2{
+    width: 250px;
+    height: auto;
+}
+
+.redessociales{
+    width: 30px;
+    height: auto;
+}
