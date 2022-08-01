@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WWWapas - Marketing Digital y redes sociales</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
 
@@ -28,7 +28,7 @@
     <section>
       <div class="d-flex flex-row ">
           <div class="col-6">
-          <h2>Somos wwwapas</h2>
+          <h2>Somos <strong class="grande">wwwapas</strong> </h2>
           <p class="subtitulo">Social media managers | creadoras de contenido</p> 
           <p>Nos encargamos de construir, gestionar y administrar la comunidad
           online de tu marca, empresa o negocio <strong> ¡Creamos relaciones estables y
@@ -74,28 +74,33 @@
               <li>Respuestas a mensajes y consultas</li>
               <li>Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
               <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
-              <li>¡Empezamos a comunicar!</li>    
+              <li id="servicio7">¡Empezamos a comunicar!</li>    
           </ol>
         </div>
       </div>
       <hr>
-      <div class="d-flex flex-row">
-        <div>  
+      <div class="d-flex flex-row  text-center">
+        <div class="col-6 ">  
             <h4> <strong> ¿Querés que nos contactemos con vos?</strong> </h4>
             <p> Envianos tu consulta >></p>
         </div>
         
-        <div class="d-flex flex-column">
-          
-              <form action="fomulario">
-              <label for="firsname">Nombre</label>
-              <input type="text" name="firsname" id="firsname">
+        <div class="col-6">
+
+              <form action="codigo.php" method="post">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre" placeholder="Juan Perez">
+              
               <label for="lastname">Email</label>
-              <input type="text" namee="lastname" id="lastname">
-              <label for="mensaje">Mensaje</label>
-              <input type="text" name="mensaje" id="mensaje">
-              <input type="submit" value="Enviar Consulta">
-              <input type="submit" value="Borrar">
+              <input type="text" name="email" id="email" required placeholder="juanperez@gmail.com">
+              
+              <label for="comentarios">Mensaje</label>
+              <textarea required name="comentarios" cols="30" rows="5"></textarea>
+              <br>
+              <div>
+              <button id="buttonenviar">Enviar Consulta &nbsp;</button>
+              <input type="reset" value="Borrar" id="buttonsumit">
+            </div>
             </form>
             
         </div>

@@ -31,7 +31,7 @@ h2 {font-weight: 400; font-size: 26.66px;}
 h3 { font-weight: 900;}
 
 .subtitulo, footer{
-    background-color: yellow;
+    background-color: #FCEE21;
 }
 
 .imagen1{
@@ -48,3 +48,46 @@ h3 { font-weight: 900;}
     width: 30px;
     height: auto;
 }
+
+ol{
+    font-size: 1.2em;
+    font-weight: 400;
+    list-style-position: inside;
+}
+#servicio7{
+    font-size: 1.5em;
+    background: #FCEE21;
+}    
+
+label,textarea { 
+    display: block;
+    padding-bottom:10px;
+    color: black;
+    font-weight: bold;
+}
+
+form span { color: #C1272D;}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(188, 186, 186);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 5px; 
+    
+}
+
+#buttonsumit,#buttonenviar{
+    color: white;
+    background: black;
+    font-weight: bold;
+}
+
+.grande{
+    font-size: 100px;   
+    font-family:'coiny', cursive;
+}
+
