@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
 
 *{
-    margin: 0;
+    margin: 5px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -16,22 +16,30 @@ h1 { font-size: 40px;}
 h1, strong {font-weight: 700;}
 
 
- nav ,footer strong {font-family: 'Coiny', cursive;
-font-size: 24px;
+ nav ,footer strong {
+    font-family: 'Coiny', cursive;
+    font-size: 28px;
 }
 nav a{
     text-decoration: none;
+    color: black;
 }
 nav a:hover{
 text-decoration: underline;
 }   
+
+.subtitulo2{
+    background-color: #333;
+    color: white;
+}
 
 h2 {font-weight: 400; font-size: 26.66px;}
 
 h3 { font-weight: 900;}
 
 .subtitulo, footer{
-    background-color: #FCEE21;
+        background-color: #FCEE21;
+        display: inline;
 }
 
 .imagen1{
@@ -90,4 +98,5 @@ form{
     font-size: 100px;   
     font-family:'coiny', cursive;
 }
+
 
